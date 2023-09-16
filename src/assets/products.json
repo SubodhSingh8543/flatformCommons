@@ -1,0 +1,286 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "Name": "Product 1",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/y/y/x/-original-imagq64acrs26k4t.jpeg?q=70",
+            "Weight": "300 g",
+            "Price": 42.49
+        },
+        {
+            "id": 2,
+            "Name": "Product 2",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/e/m/z/xs-1-20328222-roadster-original-imagq555z3xcfy5z.jpeg?q=70",
+            "Weight": "500 g",
+            "Price": 15.49
+        },
+        {
+            "id": 3,
+            "Name": "Product 3",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/r/5/y/s-16902572-roadster-original-imagk4n7nztdyrhg.jpeg?q=70",
+            "Weight": "750 g",
+            "Price": 10.99
+        },
+        {
+            "id": 4,
+            "Name": "Product 4",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l4n2oi80/top/q/0/g/l-17358406-roadster-original-imagfhtdbw9gkt5v.jpeg?q=70",
+            "Weight": "1.5 kg",
+            "Price": 25.99
+        },
+        {
+            "id": 5,
+            "Name": "Product 5",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/h/6/f/l-20355182-roadster-original-imagz3tdhc3depkb.jpeg?q=70",
+            "Weight": "300 g",
+            "Price": 8.99
+        },
+        {
+            "id": 6,
+            "Name": "Product 6",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/m/m/z/m-18297102-roadster-original-imags58yk9bwsq4k.jpeg?q=70",
+            "Weight": "2 kg",
+            "Price": 30.49
+        },
+        {
+            "id": 7,
+            "Name": "Product 7",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/x/x/0/m-18127376-roadster-original-imagz3tedejhgbjg.jpeg?q=70",
+            "Weight": "700 g",
+            "Price": 12.99
+        },
+        {
+            "id": 8,
+            "Name": "Product 8",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/2/o/e/xl-17300376-roadster-original-imagk4n7tgqkbuhj.jpeg?q=70",
+            "Weight": "1.2 kg",
+            "Price": 18.75
+        },
+        {
+            "id": 9,
+            "Name": "Product 9",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/kmax8y80/top/7/z/u/s-12162688-roadster-original-imagf8dhcvgy33du.jpeg?q=70",
+            "Weight": "900 g",
+            "Price": 14.99
+        },
+        {
+            "id": 10,
+            "Name": "Product 10",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/x/c/u/l-1-21982646-roadster-original-imagq55yjbu4vj6q.jpeg?q=70",
+            "Weight": "600 g",
+            "Price": 17.25
+        },
+        {
+            "id": 11,
+            "Name": "Product 11",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/d/k/0/s-1-20610778-roadster-original-imagq54ztugyzuvy.jpeg?q=70",
+            "Weight": "1.8 kg",
+            "Price": 22.99
+        },
+        {
+            "id": 12,
+            "Name": "Product 12",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l19m93k0/top/x/y/x/s-14936018-roadster-original-imagcvbpxtj86dza.jpeg?q=70",
+            "Weight": "1.1 kg",
+            "Price": 19.49
+        },
+        {
+            "id": 13,
+            "Name": "Product 13",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l19m93k0/top/x/y/x/s-14936018-roadster-original-imagcvbpxtj86dza.jpeg?q=70",
+            "Weight": "450 g",
+            "Price": 11.99
+        },
+        {
+            "id": 14,
+            "Name": "Product 14",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/b/e/a/xxl-1-20355222-roadster-original-imagq555zxcmmeqa.jpeg?q=70",
+            "Weight": "1.7 kg",
+            "Price": 23.99
+        },
+        {
+            "id": 15,
+            "Name": "Product 15",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/h/1/s/s-16902272-roadster-original-imagz3tdkhgjmakb.jpeg?q=70",
+            "Weight": "850 g",
+            "Price": 13.25
+        },
+        {
+            "id": 16,
+            "Name": "Product 16",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/t/n/a/s-14935636-roadster-original-imaggtnq9py9qchh.jpeg?q=70",
+            "Weight": "2.5 kg",
+            "Price": 34.99
+        },
+        {
+            "id": 17,
+            "Name": "Product 17",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/m/x/7/xxl-1-15789778-roadster-original-imagq555uux2f7rg.jpeg?q=70",
+            "Weight": "1.3 kg",
+            "Price": 21.49
+        },
+        {
+            "id": 18,
+            "Name": "Product 18",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/u/f/q/s-20321128-roadster-original-imagz3td2hghhgn6.jpeg?q=70",
+            "Weight": "400 g",
+            "Price": 9.99
+        },
+        {
+            "id": 19,
+            "Name": "Product 19",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l2hwwi80/top/5/m/b/xl-16901904-roadster-original-imagdtncztvtxyng.jpeg?q=70",
+            "Weight": "3 kg",
+            "Price": 40.99
+        },
+        {
+            "id": 20,
+            "Name": "Product 20",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l19m93k0/top/e/v/f/l-15049698-roadster-original-imagcvbzyhswcyrn.jpeg?q=70",
+            "Weight": "1.4 kg",
+            "Price": 26.75
+        },
+        {
+            "id": 21,
+            "Name": "Product 21",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/s/t/o/-original-imagq8sz9af6fheu.jpeg?q=70",
+            "Weight": "950 g",
+            "Price": 16.99
+        },
+        {
+            "id": 22,
+            "Name": "Product 22",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/m/s/k/m-15049424-roadster-original-imaggtnqsb2gnht9.jpeg?q=70",
+            "Weight": "2.2 kg",
+            "Price": 32.49
+        },
+        {
+            "id": 23,
+            "Name": "Product 23",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/x/4/s/xxl-13284830-roadster-original-imagzrhw6hgedkcm.jpeg?q=70",
+            "Weight": "1.6 kg",
+            "Price": 27.25
+        },
+        {
+            "id": 24,
+            "Name": "Product 24",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l19m93k0/top/g/s/n/s-13611078-roadster-original-imagcvbzzh9zcg7y.jpeg?q=70",
+            "Weight": "550 g",
+            "Price": 12.99
+        },
+        {
+            "id": 25,
+            "Name": "Product 25",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/kthjy4w0/top/r/h/h/s-13611210-roadster-original-imag6tga5dsu7pex.jpeg?q=70",
+            "Weight": "2.8 kg",
+            "Price": 36.99
+        },
+        {
+            "id": 26,
+            "Name": "Product 26",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/kmax8y80/top/b/f/o/xl-12724808-roadster-original-imagf8dhf6fudagz.jpeg?q=70",
+            "Weight": "1.9 kg",
+            "Price": 28.49
+        },
+        {
+            "id": 27,
+            "Name": "Product 27",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/6/6/z/-original-imagq64bwr6yzvwn.jpeg?q=70",
+            "Weight": "850 g",
+            "Price": 14.99
+        },
+        {
+            "id": 28,
+            "Name": "Product 28",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l19m93k0/top/u/z/m/l-16902254-roadster-original-imagcvbzgzfhnc7g.jpeg?q=70",
+            "Weight": "400 g",
+            "Price": 9.99
+        },
+        {
+            "id": 29,
+            "Name": "Product 29",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/kzzw5u80/top/j/u/z/xl-15202916-roadster-original-imagbvsydrru4hga.jpeg?q=70",
+            "Weight": "3.2 kg",
+            "Price": 42.99
+        },
+        {
+            "id": 30,
+            "Name": "Product 30",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/e/i/v/xxl-18822540-roadster-original-imags58zdsucy7pf.jpeg?q=70",
+            "Weight": "1.2 kg",
+            "Price": 20.75
+        },
+        {
+            "id": 31,
+            "Name": "Product 31",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/e/r/5/l-20231914-roadster-original-imagz3tbrgn5stfs.jpeg?q=70",
+            "Weight": "750 g",
+            "Price": 13.99
+        },
+        {
+            "id": 32,
+            "Name": "Product 32",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/kpvivm80/top/l/r/t/s-13471064-roadster-original-imag4yaqupq6fjvj.jpeg?q=70",
+            "Weight": "2.5 kg",
+            "Price": 35.49
+        },
+        {
+            "id": 33,
+            "Name": "Product 33",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/k8ddoy80/top/b/q/s/s-10958352-roadster-original-imafqeubxchbgbny.jpeg?q=70",
+            "Weight": "1.5 kg",
+            "Price": 24.25
+        },
+        {
+            "id": 34,
+            "Name": "Product 34",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/f/y/w/-original-imagq64b43gvgcpz.jpeg?q=70",
+            "Weight": "500 g",
+            "Price": 11.99
+        },
+        {
+            "id": 35,
+            "Name": "Product 35",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/l2jcccw0/top/d/j/6/l-22208543-8-monte-carlo-original-imagduwbjgmvjtwh.jpeg?q=70",
+            "Weight": "2.8 kg",
+            "Price": 38.99
+        },
+        {
+            "id": 36,
+            "Name": "Product 36",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/kthjy4w0/top/k/j/z/xl-13611162-roadster-original-imag6tfvfzzg7fqg.jpeg?q=70",
+            "Weight": "1.7 kg",
+            "Price": 26.49
+        },
+        {
+            "id": 37,
+            "Name": "Product 37",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/ke0a7ww0/top/a/q/z/s-11296052-roadster-original-imafus79udmapnwh.jpeg?q=70",
+            "Weight": "600 g",
+            "Price": 15.25
+        },
+        {
+            "id": 38,
+            "Name": "Product 38",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/korijrk0/top/s/j/e/xs-8338965-roadster-original-imag356kaghrejgk.jpeg?q=70",
+            "Weight": "3.5 kg",
+            "Price": 44.99
+        },
+        {
+            "id": 39,
+            "Name": "Product 39",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/x/u/z/l-puff-crop-top-women-alle-moda-original-imaggupecv72zstm.jpeg?q=70",
+            "Weight": "1.1 kg",
+            "Price": 19.99
+        },
+        {
+            "id": 40,
+            "Name": "Product 40",
+            "Image": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/q/f/w/l-20231808-roadster-original-imagz3teuh8pk8bk.jpeg?q=70",
+            "Weight": "900 g",
+            "Price": 16.75
+        }
+    ],
+    "cart": [],
+    "orders": []
+}

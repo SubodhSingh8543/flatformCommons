@@ -1,0 +1,90 @@
+/* Add these styles to your component's CSS file */
+
+/* Style for the container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the movie card */
+  .movie-card {
+    max-width: 300px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the card image */
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Style for the card body */
+  .card-body {
+    padding: 10px;
+  }
+  
+  /* Style for card title */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for other card text */
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the "Add to Cart" button */
+  .btn-danger {
+    background-color: #fd2222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-danger:hover {
+    background-color: #a31616;
+  }
+  h1{
+    text-align: center;
+  }
+  .btnOrder{
+    background-color: #14bcc8;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    margin-top: "30px";
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+  }
+
+  .btnOrder:hover{
+    background-color: #009ca7;
+  }
+
+  .parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

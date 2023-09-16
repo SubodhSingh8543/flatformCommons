@@ -1,0 +1,23 @@
+<div>
+    <h1>Catalogue</h1>
+    <div class="container mt-5">
+        <div class="col" *ngFor="let product of products">
+            <div class="movie-card mb-3">
+                <img [src]="product.Image" [alt]="product.Name" class="card-img-top" />
+                <div class="card-body">
+                    <p class="card-title"><strong>Title:</strong>{{ product.Name }}</p>
+                    <p class="card-text"><strong>Weight:</strong> {{ product.Weight }}</p>
+                    <p class="card-text"><strong>Price:</strong> {{ product.Price }}</p>
+                    <div *ngIf="product.id > 0" class="quantity-control">
+                        <button (click)="decrementQuantity(product)">-</button>
+                        <div *ngFor="let item of productsInCart">
+                            <span *ngIf="item.id === product.id">{{ item.quantity || 0 }}</span>
+                        </div>
+                        <button (click)="incrementQuantity(product)">+</button>
+                    </div>
+                    <button (click)="addToCart(product)" class="btn btn-danger">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

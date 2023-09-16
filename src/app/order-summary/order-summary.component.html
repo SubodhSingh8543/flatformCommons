@@ -1,0 +1,16 @@
+<div class="parent">
+    <h1>Order Summary</h1>
+    <button (click)="placeOrder()" class="btnOrder">Confirm Order</button>
+    <div class="container mt-5">
+        <div class="col" *ngFor="let product of orders">
+            <div class="movie-card mb-3">
+                <img [src]="product.Image" [alt]="product.Name" class="card-img-top" />
+                <div class="card-body">
+                    <p class="card-title"><strong>Title:</strong>{{ product.Name }}</p>
+                    <p class="card-text"><strong>Weight:</strong> {{ product.Weight }}</p>
+                    <p class="card-text"><strong>Price:</strong> {{ product.Price }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

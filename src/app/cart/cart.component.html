@@ -1,0 +1,19 @@
+<div class="parent">
+
+    <h1>Cart</h1>
+    <button (click)="placeOrder()" class="btnOrder">Checkout</button>
+    <div class="container mt-5">
+        <div class="col" *ngFor="let product of productsInCart">
+            <div class="movie-card mb-3">
+                <img [src]="product.Image" [alt]="product.Name" class="card-img-top" />
+                <div class="card-body">
+                    <p class="card-title"><strong>Title:</strong>{{ product.Name }}</p>
+                    <p class="card-text"><strong>Weight:</strong> {{ product.Weight }}</p>
+                    <p class="card-text"><strong>Price:</strong> {{ product.Price }}</p>
+                    <button (click)="removeItem(product)" class="btn btn-danger">Remove</button>
+                    <app-toast-message *ngIf="toastMessage" [message]="toastMessage"></app-toast-message>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

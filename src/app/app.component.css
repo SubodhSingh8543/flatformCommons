@@ -1,0 +1,35 @@
+/* header.component.css */
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color */
+    padding: 10px ; /* Top and bottom padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; /* Align navigation links to the right */
+  }
+  
+  nav a {
+    color: #fff; /* Text color for the navigation links */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Spacing between links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  
+    /* Optional: Add hover effect */
+    &:hover {
+      color: #ff9900; /* Change color on hover */
+    }
+  }
+  
+  /* Style for the active link */
+  nav a.active {
+    font-weight: bold; /* Make the active link bold */
+  }
+  
