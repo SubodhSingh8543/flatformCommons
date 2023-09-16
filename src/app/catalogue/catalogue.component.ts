@@ -59,10 +59,7 @@ export class CatalogueComponent implements OnInit {
     this.productService.getProducts().subscribe((data: any) => {
       this.products = data.products;
     });
-    // console.log(this.products);
   }
-
-  
 
   addToCart(product: any): void {
     const cartItem = this.productsInCart.find((item) => item.product === product.id);
@@ -73,7 +70,17 @@ export class CatalogueComponent implements OnInit {
     } else {
       console.log(product);
       this.productsInCart.push({...product, product: product.id, quantity: 1 });
+      alert("Product Added Successfully")
       localStorage.setItem("cartItems",JSON.stringify(this.productsInCart))
+    }
+  }
+
+  checkVisibility(product: any): any {
+    const cartItem = this.productsInCart.find((item) => item.product === product.id);
+    if(cartItem){
+      return true;
+    }else{
+      return false;
     }
   }
 }

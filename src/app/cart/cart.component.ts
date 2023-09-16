@@ -26,6 +26,18 @@ export class CartComponent {
   }
 
   placeOrder(){
-    window.open("/orders","_self")
+    if(this.productsInCart.length > 0 ){
+      window.open("/orders","_self")
+    }else{
+      alert("Your Cart is empty")
+    }
+  }
+
+  checkLength(){
+    if(this.productsInCart.length > 0){
+      return true;
+    }else{
+      return false;
+    }
   }
 }

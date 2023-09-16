@@ -1,7 +1,9 @@
 <div class="parent">
 
     <h1>Cart</h1>
-    <button (click)="placeOrder()" class="btnOrder">Checkout</button>
+    <div *ngIf="checkLength()">
+        <button (click)="placeOrder()" class="btnOrder">Checkout</button>
+    </div>
     <div class="container mt-5">
         <div class="col" *ngFor="let product of productsInCart">
             <div class="movie-card mb-3">
@@ -14,6 +16,10 @@
                     <app-toast-message *ngIf="toastMessage" [message]="toastMessage"></app-toast-message>
                 </div>
             </div>
+        </div>
+        <div *ngIf="!checkLength()">
+            <h1 style="font-size: 100px;">🛒</h1>
+            <h1>Your cart is empty</h1>
         </div>
     </div>
 </div>
