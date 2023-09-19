@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class ProductService {
-  private apiUrl = 'assets/products.json'; // Replace with the path to your JSON data file
+  private apiUrl = 'assets/products.json'; 
 
   constructor(private http: HttpClient) {}
   

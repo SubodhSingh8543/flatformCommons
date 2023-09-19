@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
-import { HttpClient } from '@angular/common/http'; // Import HttpClient to make HTTP requests
+import { HttpClient } from '@angular/common/http'; 
 import { CartService } from '../cart.service';
 
 @Component({
@@ -16,7 +16,6 @@ export class CatalogueComponent implements OnInit {
   incrementQuantity(product: any): void {
     const cartItem = this.productsInCart.find((item) => item.product === product.id);
     if (cartItem) {
-      // console.log(cartItem,);
       cartItem.quantity++
       product.quantity = cartItem.quantity;
       localStorage.setItem("cartItems", JSON.stringify(this.productsInCart));
@@ -46,7 +45,7 @@ export class CatalogueComponent implements OnInit {
 
   constructor(
     private productService: ProductService,
-    private cartService: CartService, // Inject CartService
+    private cartService: CartService,
     private http: HttpClient
   ) {
     const cartData = localStorage.getItem("cartItems");

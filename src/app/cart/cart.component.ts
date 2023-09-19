@@ -10,6 +10,7 @@ export class CartComponent {
   productsInCart: any[] = [];
   toastMessage: string = "";
   orders: any[] = [];
+  totalPrice: Number = 0;
 
   constructor(private http: HttpClient) {
     const cartData = localStorage.getItem("cartItems");
@@ -22,7 +23,7 @@ export class CartComponent {
     const filteredItem = this.productsInCart.filter((el, i) => el.product !== product.id);
     this.productsInCart = filteredItem;
     localStorage.setItem("cartItems", JSON.stringify(filteredItem))
-    this.toastMessage = 'Item removed from the cart';
+    // this.toastMessage = 'Item removed from the cart';
   }
 
   placeOrder(){
@@ -35,9 +36,22 @@ export class CartComponent {
 
   checkLength(){
     if(this.productsInCart.length > 0){
+      console.log(this.productsInCart);
       return true;
     }else{
       return false;
     }
+  }
+
+  getPrice(){
+    let newPrice: any = 0;
+    if(this.productsInCart.length > 0){
+      for(let i=0; i<this.productsInCart.length; i++){
+        newPrice += this.productsInCart[i].Price*this.productsInCart[i].quantity;
+      }
+      this.totalPrice = (newPrice).toFixed(2);
+    }
+    console.log(this.totalPrice);
+    return this.totalPrice;
   }
 }

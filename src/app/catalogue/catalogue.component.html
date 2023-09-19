@@ -8,17 +8,13 @@
                     <p class="card-title"><strong>Title:</strong>{{ product.Name }}</p>
                     <p class="card-text"><strong>Weight:</strong> {{ product.Weight }}</p>
                     <p class="card-text"><strong>Price:</strong> {{ product.Price }}</p>
-                    <!-- <ng-container  > -->
-                    <!-- <div *ngIf="product.id > 0" class="quantity-control"> -->
                     <div *ngFor="let item of productsInCart">
                         <div *ngIf="checkVisibility(product) && item.id === product.id">
-                            <button (click)="decrementQuantity(product)">-</button>
+                            <button class="btns-span" (click)="decrementQuantity(product)">-</button>
                             <span *ngIf="item.id === product.id">{{ item.quantity || 0 }}</span>
-                            <button (click)="incrementQuantity(product)">+</button>
+                            <button class="btns-span" (click)="incrementQuantity(product)">+</button>
                         </div>
                     </div>
-                    <!-- </div> -->
-                    <!-- </ng-container> -->
                     <div *ngIf="!checkVisibility(product)">
                         <button (click)="addToCart(product)" class="btn btn-danger">Add to Cart</button>
                     </div>
